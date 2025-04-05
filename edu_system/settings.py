@@ -40,7 +40,11 @@ INSTALLED_APPS = [
 
     # local apps
     'app_users',
-    'app_products',
+    'app_mentors',
+    'app_groups',
+    'app_admins',
+    'app_attendance',
+    'app_students',
     'common',
 ]
 
@@ -184,6 +188,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 #     "http://localhost:8000",
 #     "http://localhost:3000",
 #     "http://localhost",
+#     "http://localhost:8080/",
 # ]
 
 # DRF settings

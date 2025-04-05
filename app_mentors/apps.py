@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AppProductsConfig(AppConfig):
+class AppMentorsConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'app_products'
+    name = 'app_mentors'
